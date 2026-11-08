@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>إنشاء حساب | نظام إدارة الطلاب</title><link rel="stylesheet" href="assets/bootstrap.rtl.min.css"><link rel="stylesheet" href="assets/app.css?v=2"><script defer src="assets/app.js?v=2"></script></head>
+<body class="auth-body"><a class="skip" href="#main">انتقل إلى المحتوى</a>
+<header class="auth-header"><a class="brand" href="index.html"><span>نظام إدارة الطلاب</span></a><a href="index.html">العودة إلى الرئيسية</a></header>
+<main id="main" class="auth-main">
+<div class="auth-layout"><section class="auth-panel" aria-labelledby="form-title"><h2 id="form-title">إنشاء حساب</h2>
+<noscript><p>لتعبئة النموذج دون JavaScript، <a href="register.php">افتح النموذج المباشر</a>.</p></noscript>
+<form class="auth-form" data-static-auth method="post" action="register.php"><input type="hidden" name="csrf" value="">
+<div class="field"><label for="username">اسم المستخدم</label><input class="form-control" name="username" id="username" maxlength="100" minlength="3" autocomplete="username" required value=""></div>
+<div class="field"><label for="email">البريد الإلكتروني</label><input class="form-control" type="email" name="email" id="email" maxlength="100" autocomplete="email" required value=""></div>
+<div class="field"><label for="password">كلمة المرور</label><div class="password-control"><input class="form-control" name="password" id="password" type="password" minlength="8" maxlength="72" autocomplete="new-password" required><button type="button" class="password-toggle" aria-controls="password" aria-pressed="false">إظهار</button></div></div>
+<div class="field"><label for="confirmation">تأكيد كلمة المرور</label><input class="form-control" type="password" name="confirmation" id="confirmation" autocomplete="new-password" required maxlength="72"></div>
+<button class="btn btn-primary w-100" type="submit">إنشاء الحساب</button></form>
+<p class="auth-switch">لديك حساب بالفعل؟ <a href="login.html">تسجيل الدخول</a></p></section></div>
+</main></body></html>
